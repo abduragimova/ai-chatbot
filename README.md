@@ -102,6 +102,26 @@ A sample PDF document is included in the repository to demonstrate and test the 
 
 ---
 
+## Demo
+The following images illustrate the workflow of the AI Document Q&A Chatbot:
+
+**1. Main Page – PDF Upload**  
+The user can upload a PDF document that will be analyzed for real-time question answering.  
+
+![Main Page](images/main.png)
+
+**2. Chat Interface – Interacting with Document**  
+After uploading, the chatbot interface allows the user to ask questions and see responses generated from the PDF content.  
+
+![Chatbot Interface](images/chatbot.png)
+
+**3. Example Question – Accurate Answer**  
+The user can ask specific questions about the PDF, and the AI provides correct answers based strictly on the document content.  
+
+![Example Question](images/question.png)
+
+---
+
 ## Deployment Notes
 
 The application is fully deployable. The backend can be hosted on any environment supporting Python and FastAPI, while the frontend can be served as static files. The architecture allows easy scaling and integration with cloud services.
